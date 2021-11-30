@@ -71,7 +71,7 @@ with open('ui_Graph.pkl','rb') as fs:
 with open('ui_subGraph.pkl','rb') as fs:
     ui_subGraph = pickle.load(fs)
 data = (ui_Graph, ui_subGraph)
-with open(str(k_hop)+'hop_allui_subGraph.pkl','wb') as fs:
+with open(str(k_hop)+'hop_ui_subGraph.pkl','wb') as fs:
     pickle.dump(data, fs)
 
 print('Done!')
