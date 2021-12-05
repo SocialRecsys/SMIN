@@ -9,7 +9,8 @@ warnings.filterwarnings(action='ignore')
 
 #generate k-hop subgraph of u-i interaction data
 print('*********************************')
-k_hop=int(input('input the k value of k-hop subgraph:'))
+# k_hop=int(input('input the k value of k-hop subgraph:'))
+k_hop = 2
 print("get %d_hop subgraph..."%(k_hop))
 
 np.random.seed(30)  
