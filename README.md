@@ -18,15 +18,15 @@ Source code for ***Social Recommendation with Self-Supervised Metagraph Informax
   >
   > **loadMat.py**: training/test data partition
   >
-  > run `python ./dataset/CiaoDVD/loadMat.py` to perform preprocessing
+  > run `./dataset/CiaoDVD/loadMat.py` to perform preprocessing
 
   > **GenerateMetaPath.py**: metapath generation
   >
-  > run `python ./dataset/CiaoDVD/GenrateMetaPath.py` to perform generation process
+  > run `./dataset/CiaoDVD/GenrateMetaPath.py` to perform generation process
 
   > **GenerateSubGraph.py**: generate k-hop subfigures for Informax module
   >
-  > run `python ./dataset/CiaoDVD/GenerateSubGraph.py` to perform k-hop subfigure construction
+  > run `./dataset/CiaoDVD/GenerateSubGraph.py` to perform k-hop subfigure construction
 
 - Similar data preprocessing steps are applied in Epinions and Yelp data.
 
